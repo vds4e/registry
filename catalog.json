@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "organization": "vds4e",
+  "updated_at": "2026-11-24",
+  "packages": [
+    {
+      "id": "atmel-at24c128",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Datasheet-derived 128-Kbit two-wire serial EEPROM model.",
+      "image": "ghcr.io/vds4e/vds4e-atmel-at24c128:1.0.0"
+    },
+    {
+      "id": "atmel-at24c256",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Datasheet-derived 256-Kbit two-wire serial EEPROM model.",
+      "image": "ghcr.io/vds4e/vds4e-atmel-at24c256:1.0.0"
+    },
+    {
+      "id": "ethernet-icmp-host",
+      "name": null,
+      "version": "0.1.0",
+      "bus": "custom",
+      "description": "Virtual Ethernet endpoint supporting ARP and IPv4 ICMP Echo.",
+      "image": "ghcr.io/vds4e/vds4e-ethernet-icmp-host:0.1.0"
+    },
+    {
+      "id": "generic-gpio-bank-32",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Declarative GPIO bank for Linux gpio-sim and libgpiod development.",
+      "image": "ghcr.io/vds4e/vds4e-generic-gpio-bank-32:1.0.0"
+    },
+    {
+      "id": "generic-i2c-register",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Byte-register I2C target for i2c-tools and application testing.",
+      "image": "ghcr.io/vds4e/vds4e-generic-i2c-register:1.0.0"
+    },
+    {
+      "id": "generic-spidev",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "General-purpose spidev endpoint with RX\u2013TX shortcuts for transport testing.",
+      "image": "ghcr.io/vds4e/vds4e-generic-spidev:1.0.0"
+    },
+    {
+      "id": "generic-uart-responder",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "",
+      "image": "ghcr.io/vds4e/vds4e-generic-uart-responder:1.0.0"
+    },
+    {
+      "id": "i2c-sensor-drdy",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Example generic I2C register sensor that publishes a data-ready signal for board topology wiring.",
+      "image": "ghcr.io/vds4e/vds4e-i2c-sensor-drdy:1.0.0"
+    },
+    {
+      "id": "micron-mt25ql256aba8esf-0sit",
+      "name": null,
+      "version": "0.1.0",
+      "bus": "custom",
+      "description": "Datasheet-derived MT25QL256ABA SPI NOR simulation profile.",
+      "image": "ghcr.io/vds4e/vds4e-micron-mt25ql256aba8esf-0sit:0.1.0"
+    },
+    {
+      "id": "spi-sensor-drdy",
+      "name": null,
+      "version": "1.0.0",
+      "bus": "custom",
+      "description": "Example SPI sensor that publishes a data-ready signal for board topology wiring.",
+      "image": "ghcr.io/vds4e/vds4e-spi-sensor-drdy:1.0.0"
+    }
+  ]
+}
